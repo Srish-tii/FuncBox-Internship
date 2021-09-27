@@ -1,0 +1,18 @@
+#truck{
+    width:20vw;
+    top:20vw;
+    position:absolute;
+    animation: move 3s linear infinite;
+}
+#congo{
+    width:30%;
+    position:fixed;
+    top:100px;
+    margin:0 35%;
+}
+
+@keyframes move {
+    100%{
+        transform:translateX(1000px);
+    }
+}

@@ -1,0 +1,30 @@
+html{
+    overflow-x: hidden;
+}
+#address{
+    padding: 2vw 5vw;
+}
+#address h3{
+    text-align: left;
+}
+#address h6{
+    color:#FF5254;
+}
+#summary{
+    padding: 2vw 5vw;
+}
+label{
+    font-size:14px
+}
+input{
+    width: 100%;
+}
+#proceed-to-pay{
+    background: #F3EF93;
+    border-radius: 2px;
+    margin:2vw 0;
+    width: 100%;
+    outline: none;
+    border: none;
+    padding:1px;
+}
