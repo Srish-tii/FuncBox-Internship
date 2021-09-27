@@ -8,18 +8,18 @@ import Logo from '../images/logo.PNG';
 function navPage(props){
 	return(
         <div class="topnav">
-					<a href="" id="left-head">
-						<div >
-						<nobr><img src={Logo} alt="logo"/> FuncBox</nobr>
-						</div>
-					</a>
+				<a href="" id="left-head">
+				<div >
+				<nobr><img src={Logo} alt="logo"/> FuncBox</nobr>
+				</div>
+				</a>
 						
-						<div class="topnav-right">
-							<a href="#search"><img src={Home}/><br/>Home</a>
-							<a href="#about"><img src={About}/><br/>About</a>
-							<a href="#about"><img src={Shop}/><br/>Shop</a>
-							<a href="#about"><img src={Login}/><br/>Login/Signup</a>
-						</div>
+				<div class="topnav-right">
+					<a href="#Home"><img src={Home}/><br/>Home</a>
+					<a href="#About"><img src={About}/><br/>About</a>
+					<a href="#Shop"><img src={Shop}/><br/>Shop</a>
+					<a href="#Login"><img src={Login}/><br/>Login/Signup</a>
+				</div>
 				</div>
 		
 	);
