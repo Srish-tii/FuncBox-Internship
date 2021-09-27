@@ -153,19 +153,9 @@ h2{
 }   
 
 
-html{
-    width: 100%;
-    overflow-x: hidden;
-}
 
 
-
-
-
-
-
-
-
+/* Styling components */
 
 .topnav {
     background-color: white;
@@ -178,7 +168,6 @@ html{
     font-size:2vw;
     margin-left:1vw
 }
-/* Style the links inside the navigation bar */
 .topnav a {
   float: left;
   color: #6E6E6E;
@@ -188,17 +177,12 @@ html{
   font-size: 17px;
 }
 
-/* Change the color of links on hover */
 .topnav a:hover {
   color: black;
 }
 #left-head img{
     height: 5vw;
     width: 4vw;
-}
-.topnav a.active {
-  background-color: #04AA6D;
-  color: white;
 }
 
 .topnav-right {
