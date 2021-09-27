@@ -5,7 +5,7 @@ function ShippingAddress(props){
 	return(
             <div id="address">
                 <h3>
-                    {props.type} Address
+                    {props.Type} Address
                 </h3>
                 <h6>Saved Address</h6>
                 <pre>
